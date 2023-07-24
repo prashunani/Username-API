@@ -1,0 +1,31 @@
+.table-container {
+    max-width: 900px;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .table-container th {
+    background-color: #f0f0f0;
+  }
+  form {
+    max-width: 20vw;
+  }
+  
+  .error-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
